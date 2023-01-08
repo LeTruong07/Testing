@@ -1,12 +1,4 @@
-num = int(input('Nhap so n : '))
-
-
-def fibonacci(n):
-    if n <= 1:
-        return 1
-    else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
-
-
-for i in range(num):
-    print(fibonacci(i))
+a,b,n = 0,1 , int(input("Fibonacci\nHow many numbers do you want?  "))
+for i in range(n):
+    print(b)
+    a , b = b,a+b
